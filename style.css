@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: green;
 }
@@ -49,10 +50,10 @@ nav ul li:hover a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px dashed blue;
+  border: 1px dashed yellow;
   flex-wrap: wrap;
   padding: 90px 10px;
-  height: 75vh;
+  min-height: 75vh;
   background-size: cover;
   background-image: linear-gradient(rgb(11, 6, 53, 1), rgba(3, 2, 68, 0.85)), url(./img/landscape.jpg);
 }
