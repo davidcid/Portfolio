@@ -99,3 +99,14 @@ nav ul li:hover a {
 }
 
 /* FEATURES */
+.question {
+  font-family: 'Comfortaa', cursive!important;
+}
+
+.question h3 {
+  text-align: center;
+}
+
+.answer {
+  font-family: 'Heebo', sans-serif;
+}
