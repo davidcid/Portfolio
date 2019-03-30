@@ -104,9 +104,31 @@ nav ul li:hover a {
 }
 
 .question h3 {
-  text-align: center;
+  font-size: 1.4rem;
+  text-align: left;
+
+}
+
+.card-body {
+  margin: 0 auto;
+  max-width: 750px;
 }
 
 .answer {
   font-family: 'Heebo', sans-serif;
+  font-size: 1.2rem;
+}
+
+.course {
+  font-style: italic;
+  color: #0713bf;
+  opacity: 0.6;
+}
+
+.card-body h4 {
+  font-weight: bold;
+}
+
+.university {
+  margin-top: 30px;
 }
