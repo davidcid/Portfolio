@@ -18,6 +18,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
+  background-image: linear-gradient(rgba(11, 6, 53, 1), rgba(11, 6, 53, 0));
 }
 
 nav ul {
@@ -57,7 +59,7 @@ nav ul li:hover a {
   padding: 90px 10px;
   min-height: 75vh;
   background-size: cover;
-  background-image: linear-gradient(rgb(11, 6, 53, 1), rgba(3, 2, 68, 0.85)), url(./img/landscape.jpg);
+  background-image: linear-gradient(rgba(11, 6, 53, 1), rgba(3, 2, 68, 0.85)), url(./img/landscape.jpg);
 }
 
 .text {
@@ -131,4 +133,53 @@ nav ul li:hover a {
 
 .university {
   margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: linear-gradient(rgba(11, 6, 53, 1), black);
+}
+
+footer h4 {
+  color: #cccccc;
+  text-align: center;
+  font-size: 1em;
+  padding-top: 10px;
+  text-transform: uppercase;
+
+}
+
+footer p {
+  color: #cccccc;
+  text-align: center;
+  margin: 0;
+}
+
+footer ul {
+  padding: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 1.4em;
+  transition: 0.4s;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #cccccc;
+  transition: 0.4s;
+}
+
+footer ul li:hover {
+  transform: translateY(-5px);
+}
+
+footer ul li:hover a {
+  color: white;
 }
