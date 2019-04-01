@@ -59,7 +59,7 @@ nav ul li:hover a {
   padding: 90px 10px;
   min-height: 75vh;
   background-size: cover;
-  background-image: linear-gradient(rgba(11, 6, 53, 1), rgba(3, 2, 68, 0.85)), url(./img/landscape.jpg);
+  background-image: linear-gradient(rgba(11, 6, 53, 1), rgba(3, 2, 68, 0.85)), url(images/landscape.jpg);
 }
 
 .text {
