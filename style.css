@@ -18,7 +18,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10;
+  padding-right: 10px;
   background-image: linear-gradient(rgba(11, 6, 53, 1), rgba(11, 6, 53, 0));
 }
 
@@ -97,7 +97,7 @@ nav ul li:hover a {
   width: 250px;
   height: 100%;
   border-radius: 50%;
-  border: 8px solid white;
+  border: 4px solid white;
 }
 
 /* FEATURES */
