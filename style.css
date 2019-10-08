@@ -167,7 +167,7 @@ nav ul li:hover a {
   font-size: 1em;
   background-color: rgba(11, 6, 53, 1);
   color: #fff;
-  padding: 15px 0;
+  padding: 10px 5px;
 }
 
 .project a:hover {
